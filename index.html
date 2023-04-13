@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <meta name="author" content="Quadri Kobiowu">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <header>
+    <nav class="navbar">
+      <img id="logo" src="./images/logo.svg" alt="">
+      <div>
+        <button id="btn">Try it free</button>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <div class="hero_section">
+    <h1> Build The Community Your Fans Will Love</h1>
+    <p>
+      Huddle re-imagines the way we build communities. You have a voice, but so does
+      your audience. Create connections with your users as you engage in genuine discussion.
+    </p>
+    <button>
+      Get Started For Free
+    </button>
+  </div>
+  <!-- Screen mockups section  -->
+  <div class="screen_mockups" data-aos="fade-up">
+    <img src="./images/screen-mockups.svg" alt="">
+  </div>
+  <!-- Followers section -->
+  <div class="followers">
+    <div class="communities" data-aos="fade-right">
+      <p>
+        <img src="./images/icon-communities.svg" alt="">
+      </p>
+      <h1>1.4k+</h1>
+      <p> Communities Formed</p>
+    </div>
+    <div class="messages" data-aos="fade-up">
+      <p>
+        <img src="./images/icon-messages.svg" alt="">
+      </p>
+      <h1>2.7m+</h1>
+      <p>Messages Sent</p>
+    </div>
+  </div>
+  <!-- Grow together -->
+  <div class="grow_together">
+    <div class="grow_together_content" data-aos="fade-right">
+      <h1> Grow Together</h1>
+      <p>
+        Generate meaningful discussions with your audience and build a strong, loyal community.
+        Think of the insightful conversations you miss out on with a feedback form.
+      </p>
+    </div>
+    <div class="grow_together_image" data-aos="fade-left">
+      <img src="./images/illustration-grow-together.svg" alt="">
+    </div>
+  </div>
+  <!-- Flowing Conversations -->
+  <div class="grow_together flowing_Conversations">
+    <div class="grow_together_content" data-aos="fade-right">
+      <h1>Flowing Conversations</h1>
+      <p>
+        You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+        just-in-time loading for a more natural flow.
+      </p>
+    </div>
+    <div class="grow_together_image" data-aos="fade-left">
+      <img src="./images/illustration-flowing-conversation.svg" alt="">
+    </div>
+  </div>
+  <div class="grow_together">
+    <div class="grow_together_content" data-aos="fade-left">
+      <h1>Your Users</h1>
+      <p>
+        It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+        once signed in to your app, your users can start chatting immediately.
+      </p>
+    </div>
+    <div class="grow_together_image" data-aos="fade-right">
+      <img src="./images/illustration-your-users.svg" alt="">
+    </div>
+  </div>
+  <div class="build_community" data-aos="fade-right">
+    <h1>Ready To Build Your Community?</h1>
+    <button>Get Started For Free</button>
+  </div>
+  <!-- Footer Section -->
+  <div class="footer">
+    <div class="footer_links">
+      <div class="link_1">
+        <ul>
+          <li class="foot_link" data-aos="fade-up">
+            <a href="#">
+              <img id="footer_logo" src="./images/footer_logo.svg" alt="">
+            </a>
+          </li>
+          <li class="foot_link" data-aos="fade-right">
+            <a href="#">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+              vestibulum a, ultrices quis sem.
+            </a>
+          </li>
+          <li class="foot_link" data-aos="fade-left">
+            <a href="#">
+              <img src="./images/icon-phone.svg" alt="">
+              <span>Phone: +1-543-123-4567</span>
+            </a>
+          </li>
+          <li class="foot_link">
+            <a href="#">
+              <img src="./images/icon-email.svg" alt="">
+              <span>
+                example@huddle.com
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="link_2" data-aos="fade-right">
+        <ul>
+          <li class="foot_link">
+            <a href="#">
+              <h1>Newsletter</h1>
+            </a>
+          </li>
+          <li class="foot_link">
+            <a href="#">
+              To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
+              send you spam or pass on your email address
+            </a>
+          </li>
+          <li class="foot_link" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <a href="javascript:void()">
+              <form>
+                <p>
+                  <input type="email">
+                </p>
+                <p>
+                  <input type="button" value="Subscribe">
+                </p>
+              </form>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="link_4">
+      <ul>
+        <li>
+          <a href="#" id="circle">
+            <i class="fa-brands fa fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" id="circle">
+            <i class="fa-brands fa fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" id="circle">
+            <i class="fa-brands fa fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- 
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
