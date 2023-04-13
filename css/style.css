@@ -131,10 +131,12 @@ h1 {
 }
 
 .grow_together {
-  background: url(../images/bg-section-top-desktop-1.svg) no-repeat center;
+  background: url(../images/bg-section-top-desktop-1.svg), url(../images/bg-section-bottom-desktop-1.svg) no-repeat;
+  background-position: center center;
+  background-blend-mode: multiply;
   background-size: cover;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
   display: flex;
   gap: 70px;
   padding: 70px;
