@@ -94,6 +94,7 @@ h1 {
   color: var(--Very_Pale_Blue);
   font-size: 1.2rem;
   cursor: pointer;
+  box-shadow: 0px 0px 10px var(--Very_Pale_Blue);
 }
 
 .hero_section > button:hover,
@@ -130,16 +131,23 @@ h1 {
   font-size: 4rem;
 }
 
+/* Grow together section */
 .grow_together {
-  background: url(../images/bg-section-top-desktop-1.svg), url(../images/bg-section-bottom-desktop-1.svg) no-repeat;
-  background-position: center center;
-  background-blend-mode: multiply;
-  background-size: cover;
-  /* height: 100%;
-  width: 100%; */
+  background-color: var(--Very_Pale_Blue);
+  height: 100%;
   display: flex;
   gap: 70px;
   padding: 70px;
+}
+
+#wave_mobile{
+  display: none;
+}
+
+#wave_desktop{
+  width: 100%;
+  display: block;
+  margin-bottom: -1px;
 }
 
 .grow_together_content {
@@ -165,6 +173,7 @@ h1 {
 }
 
 .flowing_Conversations {
+  background-color: white;
   flex-direction: row-reverse;
 }
 
@@ -181,17 +190,14 @@ h1 {
 
 .footer {
   height: 100%;
-  width: 100%;
-  background: url(../images/bg-footer-top-desktop.svg) no-repeat center;
-  background-size: cover;
+  background-color: var(--Very_Dark_Cyan);
   color: var(--Very_Pale_Blue);
-  padding: 100px 100px 30px 100px;
+  padding: 50px;
 }
 
 .footer_links {
   display: flex;
   justify-content: center;
-  margin-top: 250px;
   gap: 100px;
 }
 
@@ -328,6 +334,18 @@ START!!!!!!!!!!!!!
     gap: 50px;
   }
 
+
+   /* Grow together section */
+    
+   #wave_desktop{
+    display: none;
+   }
+
+   #wave_mobile{
+    display: block;
+		width: 100%;
+		margin-bottom: -1px;
+   }
   .grow_together {
     width: 100%;
     flex-direction: column;
@@ -350,15 +368,10 @@ START!!!!!!!!!!!!!
 
   /* Footer section */
   .footer {
-    background: url(../images/bg-footer-top-mobile.svg) no-repeat center;
-    background-size: cover;
     padding: 15px;
-    height: 100%;
-    width: 100%;
   }
 
   .footer_links {
-    margin-top: 350px;
     gap: 20px;
   }
 
