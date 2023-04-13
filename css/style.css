@@ -394,6 +394,11 @@ START!!!!!!!!!!!!!
   .link_2 input[type="email"] {
     width: 100%;
   }
+
+  .hero_section > button,
+.build_community > button{
+  width: 100%;
+}
 }
 
 /* Mobile Responsive
