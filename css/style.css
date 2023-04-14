@@ -26,6 +26,7 @@ body {
   font-family: var(--body_font);
 
   overflow-x: hidden;
+  width: 100%;
 }
 
 /* Variables */
@@ -298,6 +299,9 @@ START!!!!!!!!!!!!!
 */
 
 @media (max-width: 768px) {
+  body {
+    
+  }
   /* Navbar */
 
   .navbar {
