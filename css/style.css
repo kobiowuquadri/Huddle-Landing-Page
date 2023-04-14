@@ -75,6 +75,7 @@ h1 {
   align-items: center;
   justify-content: center;
   padding-top: 100px;
+  width: 100%;
 }
 
 .hero_section > p {
@@ -135,6 +136,7 @@ h1 {
 .grow_together {
   background-color: var(--Very_Pale_Blue);
   height: 100%;
+  width: 100%;
   display: flex;
   gap: 70px;
   padding: 70px;
@@ -178,10 +180,12 @@ h1 {
 }
 
 .build_community {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 100px 50px 100px 50px;
   gap: 50px;
 }
@@ -190,6 +194,7 @@ h1 {
 
 .footer {
   height: 100%;
+  width: 100%;
   background-color: var(--Very_Dark_Cyan);
   color: var(--Very_Pale_Blue);
   padding: 50px;
@@ -267,8 +272,8 @@ h1 {
 }
 
 #circle {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   text-align: center;
   background-color: var(--Very_Pale_Blue);
   color: var(--Very_Dark_Cyan);
@@ -313,7 +318,7 @@ START!!!!!!!!!!!!!
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .hero_section > p {
@@ -352,7 +357,6 @@ START!!!!!!!!!!!!!
 		margin-bottom: -1px;
    }
   .grow_together {
-    width: 100%;
     flex-direction: column;
     padding: 20px;
     justify-content: center;
@@ -390,12 +394,8 @@ START!!!!!!!!!!!!!
 
   .link_2 form {
     flex-direction: column;
-    justify-content: flex-start;
   }
 
-  .link_2 button {
-    text-align: end;
-  }
 
   .link_4 li {
     font-size: 1rem;
