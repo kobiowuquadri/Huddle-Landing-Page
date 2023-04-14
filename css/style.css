@@ -299,8 +299,13 @@ START!!!!!!!!!!!!!
     padding: 1rem 1rem;
   }
 
+  #logo{
+    width: 100px;
+  }
   
-
+  .navbar button{
+    padding: .2rem .7rem;
+  }
   /* Hero Section */
 
   .hero_section {
@@ -412,6 +417,8 @@ START!!!!!!!!!!!!!
 .build_community > button{
   width: 100%;
 }
+
+
 }
 
 /* Mobile Responsive
